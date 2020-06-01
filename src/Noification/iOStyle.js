@@ -15,14 +15,6 @@ export const IOStyle = StyleSheet.create({
 		backgroundColor: 'transparent',
 		alignItems: 'center',
 		justifyContent: 'center',
-		shadowOpacity: 0.1,
-		shadowRadius: 4,
-		shadowColor: '#000',
-		shadowOffset: {
-			width: 0,
-			height: 5,
-		},
-		borderRadius: 14,
 	},
 	container: {
 		width: '100%',
@@ -39,7 +31,7 @@ export const IOStyle = StyleSheet.create({
 	knob: {
 		width: 50,
 		height: 4,
-		backgroundColor: '#ffffff',
+		backgroundColor: 'transparent',
 		opacity: 0.3,
 		borderRadius: 4,
 		marginVertical: 6,
@@ -55,5 +47,6 @@ export const IOStyle = StyleSheet.create({
 		height: '100%',
 		justifyContent: 'center',
 		alignItems: 'center',
+        backgroundColor: 'transparent',
 	},
 });
